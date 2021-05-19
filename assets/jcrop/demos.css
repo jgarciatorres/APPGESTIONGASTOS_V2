@@ -1,0 +1,63 @@
+/* JCROP DEMOS CSS */
+.jc-demo {
+  text-align: center;
+}
+.jcropper-holder {
+  border: 1px #bbb solid;
+}
+.jc-demo-box {
+  text-align: left;
+  margin: 2em auto;
+  background: white;
+  border: 1px #bbb solid;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  padding: 1em 2em 2em;
+}
+form {
+  margin: 1.5em 0;
+}
+form.coords label {
+  margin-right: 1em;
+  font-weight: bold;
+  color: #900;
+}
+form.coords input {
+  width: 3em;
+}
+.ui-widget-overlay {
+  opacity: 0.80;
+  filter: alpha(opacity=70);
+}
+.jc-dialog {
+  padding-top: 1em;
+}
+.ui-dialog p tt {
+  color: yellow;
+}
+.jcrop-light .jcrop-selection {
+  -moz-box-shadow: 0px 0px 15px #999;
+  /* Firefox */
+  -webkit-box-shadow: 0px 0px 15px #999;
+  /* Safari, Chrome */
+  box-shadow: 0px 0px 15px #999;
+  /* CSS3 */
+}
+.jcrop-dark .jcrop-selection {
+  -moz-box-shadow: 0px 0px 15px #000;
+  /* Firefox */
+  -webkit-box-shadow: 0px 0px 15px #000;
+  /* Safari, Chrome */
+  box-shadow: 0px 0px 15px #000;
+  /* CSS3 */
+}
+.description {
+  margin: 16px 0;
+}
+.jcrop-droptarget canvas {
+  background-color: #f0f0f0;
+}

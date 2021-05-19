@@ -1,0 +1,208 @@
+:root {
+    --color-app: #f7d000;
+    --color-app-rba: 247, 208, 0;
+    --color-app-hover: #fdde37;
+    --letter-color-menu: #000000;
+}
+
+.btn-color-primary{
+    background: rgba(var(--color-app-rba),1);
+    background: -moz-linear-gradient(top, rgba(var(--color-app-rba),0.5) 0%, rgba(var(--color-app-rba),1) 25%, rgba(var(--color-app-rba),1) 50%, rgba(var(--color-app-rba),1) 75%, rgba(var(--color-app-rba),0.5) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(var(--color-app-rba),0.5)), color-stop(25%, rgba(var(--color-app-rba),1)), color-stop(50%, rgba(var(--color-app-rba),1)), color-stop(75%, rgba(var(--color-app-rba),1)), color-stop(100%, rgba(var(--color-app-rba),0.5)));
+    background: -webkit-linear-gradient(top, rgba(var(--color-app-rba),0.8) 0%, rgba(var(--color-app-rba),1) 25%, rgba(var(--color-app-rba),1) 50%, rgba(var(--color-app-rba),1) 75%, rgba(var(--color-app-rba),0.5) 100%);
+    background: -o-linear-gradient(top, rgba(var(--color-app-rba),0.5) 0%, rgba(var(--color-app-rba),1) 25%, rgba(var(--color-app-rba),1) 50%, rgba(var(--color-app-rba),1) 75%, rgba(var(--color-app-rba),0.5) 100%);
+    background: -ms-linear-gradient(top, rgba(var(--color-app-rba),0.5) 0%, rgba(var(--color-app-rba),1) 25%, rgba(var(--color-app-rba),1) 50%, rgba(var(--color-app-rba),1) 75%, rgba(var(--color-app-rba),0.5) 100%);
+    background: linear-gradient(to bottom, rgba(var(--color-app-rba),0.5) 0%, rgba(var(--color-app-rba),1) 25%, rgba(var(--color-app-rba),1) 50%, rgba(var(--color-app-rba),1) 75%, rgba(var(--color-app-rba),0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+.content-btn-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-btn-upload > button{
+    /* width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    border-radius: 15px;
+    border-color: #000000;
+    box-shadow: 0px 5px 20px 0px #636363;
+    color: #ffffff;
+    font-size: 19px; */
+    width: 90%;
+}
+.content-btn-upload> button:hover, .content-btn-upload> button:active{
+    /* box-shadow: 0px 5px 20px 0px transparent;
+    border-color: #b1b1b1;
+    color: #fbf9f9; */
+}
+
+.content-operacion {
+    font-size: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.content-operacion > div {
+    /*MAX WAS HERE*/
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    text-align: center;
+}
+.content-operacion > div:hover, .content-operacion > div:active{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.content-image{
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    height: auto;
+    /* overflow: auto; */
+}
+
+::-webkit-file-upload-button {
+    cursor:pointer;
+}
+.imput-file::-webkit-file-upload-button{
+    cursor: pointer;
+}
+.input-file:hover, .input-file:active{
+    cursor: pointer;
+}
+.sbar_collapsed .nav-btn{
+   background: var(--color-app) !important;
+}
+
+.content-estado{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btn-estado{
+    max-width: 500px !important;
+    text-align: center;
+    font-size: 17px !important;
+}
+
+.dz-remove {
+    background: #ff0000;
+}
+.dz-remove:hover, .dz-remove:active {
+    background: #d20606;
+    cursor: pointer;
+}
+
+.dz-image{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.footer-area{
+    padding-top: 50px;
+}
+
+.lista-imagen{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dropzone.dz-clickable .dz-default{
+    /* max-width: 90% !important; */
+    max-width: 100% !important;
+    height: 200px !important;
+    width: 100% !important;
+    pointer-events: all !important;
+    margin: auto;
+    border: 1px solid #c4c4c4;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.dropzone.dz-clickable .dz-default:hover, .dropzone.dz-clickable .dz-default:active{
+    opacity: 0.9;
+    color: #c3a914;
+}
+
+.dropzone .dz-preview .dz-details .dz-filename{
+    white-space: pre-wrap !important;
+}
+
+.dropzone.dz-started .dz-message{
+    display: block !important;
+}
+
+.dropzone .dz-preview{
+    pointer-events: all !important;
+}
+
+.dropzone.dz-started{
+    display: block !important;
+}
+
+.dz-default .fa-upload{
+    font-size: 50px;
+}
+.dz-default > span {
+    font-size: 20px;
+}
+.dropzone.dz-clickable{
+    pointer-events: none !important;
+    cursor: none !important;
+}
+.dropzone {
+    border: none !important;
+}
+
+.dz-remove > label {
+    color: #ffffff;
+    font-weight: 900;
+    vertical-align: sub;
+}
+
+.dz-remove > label:hover, .dz-remove > label:active {
+    cursor: pointer;
+}
+
+/*
+
+IMAGEN.PHP
+
+*/
+
+.submit-btn-area button:hover i {
+    margin-left: 20px;
+}
+.content-image img{
+    width: 100%;
+    /*MAX WAS HERE*/
+    /* height: 500px; */
+}
+.content-full-image{
+    display: inline-block;
+}
+.content-image{
+    float: left;
+    width: 300px;
+    padding: 5px;
+}
+.input-file {
+    cursor: pointer;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    background: green;
+}
+.actualizar_img_fix
+{
+    position: relative;
+}
+
+.label-fixed{
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+}

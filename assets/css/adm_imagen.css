@@ -1,0 +1,113 @@
+.content-operacion {
+    font-size: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.content-operacion > div {
+    text-align: center;
+}
+.content-operacion > div:hover, .content-operacion > div:active{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.content-image{
+    height: auto;
+}
+
+::-webkit-file-upload-button {
+    cursor:pointer;
+}
+.imput-file::-webkit-file-upload-button{
+    cursor: pointer;
+}
+.input-file:hover, .input-file:active{
+    cursor: pointer;
+}
+.sbar_collapsed .nav-btn{
+   background: var(--themecolor) !important;
+}
+
+.content-estado{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btn-estado{
+    max-width: 500px !important;
+    text-align: center;
+    font-size: 17px !important;
+}
+
+
+/*
+
+IMAGEN.PHP
+
+*/
+
+.submit-btn-area button:hover i {
+    margin-left: 20px;
+}
+.content-image img{
+    width: 100%;
+}
+.content-full-image{
+    display: inline-block;
+}
+.content-image{
+    float: left;
+    width: 300px;
+    padding: 5px;
+}
+.input-file {
+    cursor: pointer;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    background: green;
+}
+
+.actualizar_img_fix{
+    position: relative;
+}
+
+.label-fixed{
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+/* NUEVO IMAGEN.PHP */
+.x_span_badge_x{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: unset;
+}
+
+.x_primary_x{
+    background-color: #007bff;
+}
+
+.x_success_x{
+    background-color: #28a745;
+}
+
+.x_success_x_2{
+    color: black;
+}
+
+.x_info_x{
+    background-color: #17a2b8;
+}
+
+
+.x_span_badge_x:hover, .x_span_badge_x:focus{
+    cursor: pointer;
+}
